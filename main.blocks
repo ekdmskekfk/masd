@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id=":R1w:j8^#g`myqGNG5/M" x="379" y="-104"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="#W(CQ^M;8SNy#8KyQk72"><field name="LEDS">`
+        . . . . . 
+        . . # # # 
+        . . # . # 
+        . . # # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="o7jeGnTNPb9`VO}pp*yD" x="186" y="-21"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="de=%zr(iZBr/%3({^[Yv"><field name="LEDS">`
+        . . . . . 
+        # # # . . 
+        # . # . . 
+        # # # . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="]SOwU@j}I)]=R(HZqcbs" x="0" y="0"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="device_show_leds" id="2I9UH!#6:nyfKta#@yEw"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field></block></statement></block><block type="pxt-on-start" id="#?3+d=IJtWJg*AQG167X" x="240" y="256"><statement name="HANDLER"><block type="basic_show_icon" id="P/qD9^9WOwLEY55;fS(b"><field name="i">IconNames.SmallSquare</field></block></statement></block><block type="device_gesture_event" id="i%E8G-,jR55I-zokicjs" x="48" y="280"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="device_show_leds" id="5E+OkUO?_[1*,3R?sK7L"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="U27M?wAjqpxPS:_/NcU^" x="376" y="425"><field name="NAME">Gesture.FreeFall</field><statement name="HANDLER"><block type="device_print_message" id="L)bp_MQZ1r4q{{2M?kjH"><value name="text"><shadow type="text" id="/C4rjTuX/Q-DPZe~YDjd"><field name="TEXT">failing the game</field></shadow></value></block></statement></block></xml>
